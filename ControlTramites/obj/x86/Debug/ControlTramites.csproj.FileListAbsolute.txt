@@ -1,0 +1,10 @@
+c:\users\mark\documents\visual studio 2010\Projects\ControlTramites\ControlTramites\bin\Debug\ControlTramites.exe
+c:\users\mark\documents\visual studio 2010\Projects\ControlTramites\ControlTramites\bin\Debug\ControlTramites.pdb
+c:\users\mark\documents\visual studio 2010\Projects\ControlTramites\ControlTramites\bin\Debug\MySql.Data.dll
+c:\users\mark\documents\visual studio 2010\Projects\ControlTramites\ControlTramites\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\mark\documents\visual studio 2010\Projects\ControlTramites\ControlTramites\obj\x86\Debug\ControlTramites.Form1.resources
+c:\users\mark\documents\visual studio 2010\Projects\ControlTramites\ControlTramites\obj\x86\Debug\ControlTramites.Properties.Resources.resources
+c:\users\mark\documents\visual studio 2010\Projects\ControlTramites\ControlTramites\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\mark\documents\visual studio 2010\Projects\ControlTramites\ControlTramites\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\mark\documents\visual studio 2010\Projects\ControlTramites\ControlTramites\obj\x86\Debug\ControlTramites.exe
+c:\users\mark\documents\visual studio 2010\Projects\ControlTramites\ControlTramites\obj\x86\Debug\ControlTramites.pdb
