@@ -15,6 +15,12 @@ namespace ControlTramites
         public UILClientes()
         {
             InitializeComponent();
+
+            // esto deberia estar en el load o algo asi, o correrse cada vez que abre la ventana / show
+            //cargar los datos para el autocomplete del textbox
+            textBox1.AutoCompleteCustomSource = AutoCompleClass.Autocomplete();
+            textBox1.AutoCompleteMode = AutoCompleteMode.Suggest;
+            textBox1.AutoCompleteSource = AutoCompleteSource.CustomSource;
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
