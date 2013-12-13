@@ -64,6 +64,12 @@
     <Compile Include="UILBuscarCliente.Designer.cs">
       <DependentUpon>UILBuscarCliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="UILClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UILClientes.Designer.cs">
+      <DependentUpon>UILClientes.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -78,6 +84,9 @@
     </Compile>
     <EmbeddedResource Include="UILBuscarCliente.resx">
       <DependentUpon>UILBuscarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UILClientes.resx">
+      <DependentUpon>UILClientes.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">

@@ -41,7 +41,7 @@ namespace ControlTramites
             // 
             // txtApellido
             // 
-            this.txtApellido.Location = new System.Drawing.Point(167, 89);
+            this.txtApellido.Location = new System.Drawing.Point(276, 92);
             this.txtApellido.Name = "txtApellido";
             this.txtApellido.Size = new System.Drawing.Size(100, 20);
             this.txtApellido.TabIndex = 9;
@@ -49,7 +49,7 @@ namespace ControlTramites
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(51, 89);
+            this.label2.Location = new System.Drawing.Point(160, 92);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(44, 13);
             this.label2.TabIndex = 8;
@@ -58,7 +58,7 @@ namespace ControlTramites
             // Label1
             // 
             this.Label1.AutoSize = true;
-            this.Label1.Location = new System.Drawing.Point(51, 53);
+            this.Label1.Location = new System.Drawing.Point(160, 56);
             this.Label1.Name = "Label1";
             this.Label1.Size = new System.Drawing.Size(44, 13);
             this.Label1.TabIndex = 7;
@@ -66,14 +66,14 @@ namespace ControlTramites
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(167, 53);
+            this.txtNombre.Location = new System.Drawing.Point(276, 56);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(100, 20);
             this.txtNombre.TabIndex = 6;
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(144, 115);
+            this.btnBuscar.Location = new System.Drawing.Point(253, 118);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(75, 23);
             this.btnBuscar.TabIndex = 10;
@@ -84,9 +84,9 @@ namespace ControlTramites
             // dgvBuscar
             // 
             this.dgvBuscar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvBuscar.Location = new System.Drawing.Point(54, 160);
+            this.dgvBuscar.Location = new System.Drawing.Point(12, 160);
             this.dgvBuscar.Name = "dgvBuscar";
-            this.dgvBuscar.Size = new System.Drawing.Size(253, 152);
+            this.dgvBuscar.Size = new System.Drawing.Size(575, 152);
             this.dgvBuscar.TabIndex = 11;
             // 
             // btnAceptar
@@ -101,7 +101,7 @@ namespace ControlTramites
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(292, 324);
+            this.btnCancelar.Location = new System.Drawing.Point(512, 324);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(75, 23);
             this.btnCancelar.TabIndex = 13;
@@ -112,7 +112,7 @@ namespace ControlTramites
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(379, 359);
+            this.ClientSize = new System.Drawing.Size(599, 359);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.dgvBuscar);
