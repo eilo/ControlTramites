@@ -29,14 +29,26 @@ namespace ControlTramites
         //metodo para cargar los datos de la bd
         public static DataTable CacheDatos()
         {
+            DataTable dt = new DataTable();
             MySqlConnection cn = new MySqlConnection("server=127.0.0.1; database=controltramites; Uid=root; pwd=mimamamemima1987;");
 
-            string sqlCmd = "SELECT IdCliente, Nombre, Apellido, Cedula, Clave FROM clientes";
+            try
+            {
+                string sqlCmd = "SELECT IdCliente, Nombre, Apellido, Cedula, Clave FROM clientes";
 
-            MySqlDataAdapter adr = new MySqlDataAdapter(sqlCmd, cn);
-            adr.SelectCommand.CommandType = CommandType.Text;
-            DataTable dt = new DataTable();
-            adr.Fill(dt); //opens and closes the DB connection automatically !! (fetches from pool)
+                MySqlDataAdapter adr = new MySqlDataAdapter(sqlCmd, cn);
+                adr.SelectCommand.CommandType = CommandType.Text;
+
+                adr.Fill(dt); //opens and closes the DB connection automatically !! (fetches from pool)
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("{oops - {0}", ex.Message);
+            }
+            finally
+            {
+                cn.Dispose(); // return connection to pool
+            }
 
             return dt;
         }
@@ -51,7 +63,7 @@ namespace ControlTramites
             //recorrer y cargar los items para el autocompletado
             foreach (DataRow row in dt.Rows)
             {
-                coleccion.Add(Convert.ToString(row["pais"]));
+                coleccion.Add(Convert.ToString(row["Nombre"]));
             }
 
             return coleccion;
