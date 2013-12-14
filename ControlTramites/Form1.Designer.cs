@@ -40,6 +40,7 @@ namespace ControlTramites
             this.txtCedula = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.btnActualizar = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -147,11 +148,22 @@ namespace ControlTramites
             this.btnActualizar.UseVisualStyleBackColor = true;
             this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(204, 222);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(90, 23);
+            this.button4.TabIndex = 12;
+            this.button4.Text = "Autocompletar";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(369, 332);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.txtClave);
@@ -185,6 +197,7 @@ namespace ControlTramites
         private System.Windows.Forms.TextBox txtCedula;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button btnActualizar;
+        private System.Windows.Forms.Button button4;
     }
 }
 

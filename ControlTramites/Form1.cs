@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -83,6 +83,12 @@ namespace ControlTramites
                 MessageBox.Show("No se pudo actualizar", "Error al Actualizar", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
 
             }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            UILClientes autocompletar = new UILClientes();
+            autocompletar.ShowDialog();
         }
 
     }
