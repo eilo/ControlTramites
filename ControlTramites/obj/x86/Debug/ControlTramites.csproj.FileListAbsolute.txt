@@ -10,3 +10,13 @@ c:\users\mark\documents\visual studio 2010\Projects\ControlTramites\ControlTrami
 c:\users\mark\documents\visual studio 2010\Projects\ControlTramites\ControlTramites\obj\x86\Debug\ControlTramites.pdb
 C:\opt\emu\ControlTramites\ControlTramites\obj\x86\Debug\ControlTramites.exe
 C:\opt\emu\ControlTramites\ControlTramites\obj\x86\Debug\ControlTramites.pdb
+C:\opt\emu\ControlTramites\ControlTramites\bin\Debug\ControlTramites.exe
+C:\opt\emu\ControlTramites\ControlTramites\bin\Debug\ControlTramites.pdb
+C:\opt\emu\ControlTramites\ControlTramites\bin\Debug\MySql.Data.dll
+C:\opt\emu\ControlTramites\ControlTramites\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\opt\emu\ControlTramites\ControlTramites\obj\x86\Debug\ControlTramites.Form1.resources
+C:\opt\emu\ControlTramites\ControlTramites\obj\x86\Debug\ControlTramites.Properties.Resources.resources
+C:\opt\emu\ControlTramites\ControlTramites\obj\x86\Debug\ControlTramites.UILBuscarCliente.resources
+C:\opt\emu\ControlTramites\ControlTramites\obj\x86\Debug\ControlTramites.UILClientes.resources
+C:\opt\emu\ControlTramites\ControlTramites\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\opt\emu\ControlTramites\ControlTramites\obj\x86\Debug\GenerateResource.write.1.tlog

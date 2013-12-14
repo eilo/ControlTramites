@@ -12,18 +12,20 @@ namespace ControlTramites
 {
     public partial class UILClientes : Form
     {
+        bool loaded;
+
         public UILClientes()
         {
             InitializeComponent();
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
             // esto deberia estar en el load o algo asi, o correrse cada vez que abre la ventana / show
             //cargar los datos para el autocomplete del textbox
             textBox1.AutoCompleteCustomSource = UILClientes.Autocomplete();
             textBox1.AutoCompleteMode = AutoCompleteMode.Suggest;
             textBox1.AutoCompleteSource = AutoCompleteSource.CustomSource;
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
         }
 
         //metodo para cargar los datos de la bd
@@ -63,7 +65,9 @@ namespace ControlTramites
             //recorrer y cargar los items para el autocompletado
             foreach (DataRow row in dt.Rows)
             {
-                coleccion.Add(Convert.ToString(row["Nombre"]));
+                string item = Convert.ToString(row["Nombre"]) + " " + Convert.ToString(row["Apellido"]);
+                MessageBox.Show(item);
+                coleccion.Add(item);
             }
 
             return coleccion;
