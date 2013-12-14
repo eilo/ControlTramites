@@ -20,8 +20,6 @@ namespace ControlTramites
             // esto deberia estar en el load o algo asi, o correrse cada vez que abre la ventana / show
             //cargar los datos para el autocomplete del textbox
             textBox1.AutoCompleteCustomSource = UILClientes.Autocomplete();
-            textBox1.AutoCompleteMode = AutoCompleteMode.Suggest;
-            textBox1.AutoCompleteSource = AutoCompleteSource.CustomSource;
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -65,7 +63,7 @@ namespace ControlTramites
             //recorrer y cargar los items para el autocompletado
             foreach (DataRow row in dt.Rows)
             {
-                string item = Convert.ToString(row["Nombre"]) + " " + Convert.ToString(row["Apellido"]);
+                string item = Convert.ToString(row["Apellido"]) + " " + Convert.ToString(row["Nombre"]);
                 MessageBox.Show(item);
                 coleccion.Add(item);
             }
