@@ -1,6 +1,6 @@
 namespace ControlTramites
 {
-    partial class Form1
+    partial class UILPrincipal
     {
         /// <summary>
         /// Variable del diseñador requerida.
@@ -45,7 +45,7 @@ namespace ControlTramites
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(34, 223);
+            this.button1.Location = new System.Drawing.Point(268, 296);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
@@ -150,7 +150,7 @@ namespace ControlTramites
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(204, 222);
+            this.button4.Location = new System.Drawing.Point(120, 226);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(90, 23);
             this.button4.TabIndex = 12;
@@ -158,7 +158,7 @@ namespace ControlTramites
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // Form1
+            // UILPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -176,7 +176,7 @@ namespace ControlTramites
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Name = "Form1";
+            this.Name = "UILPrincipal";
             this.Text = "ControlTramites";
             this.ResumeLayout(false);
             this.PerformLayout();

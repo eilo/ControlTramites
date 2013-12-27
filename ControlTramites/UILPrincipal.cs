@@ -6,12 +6,16 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace ControlTramites
 {
-    public partial class Form1 : Form
+    public partial class UILPrincipal : Form
     {
-        public Form1()
+        // voy a mantener un objeto comun en toda la solucion
+        public MySqlConnection conexion = DALdbcomun.ObtenerConexion();
+
+        public UILPrincipal()
         {
             InitializeComponent();
         }
@@ -87,7 +91,7 @@ namespace ControlTramites
 
         private void button4_Click(object sender, EventArgs e)
         {
-            UILClientes autocompletar = new UILClientes();
+            UILClientes autocompletar = new UILClientes(conexion);
             autocompletar.ShowDialog();
         }
 
