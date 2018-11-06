@@ -1,0 +1,23 @@
+c:\users\mark\documents\visual studio 2010\Projects\ControlTramites\ControlTramites\bin\Release\ControlTramites.exe
+c:\users\mark\documents\visual studio 2010\Projects\ControlTramites\ControlTramites\bin\Release\ControlTramites.pdb
+c:\users\mark\documents\visual studio 2010\Projects\ControlTramites\ControlTramites\bin\Release\MySql.Data.dll
+c:\users\mark\documents\visual studio 2010\Projects\ControlTramites\ControlTramites\obj\x86\Release\ResolveAssemblyReference.cache
+c:\users\mark\documents\visual studio 2010\Projects\ControlTramites\ControlTramites\obj\x86\Release\ControlTramites.Form1.resources
+c:\users\mark\documents\visual studio 2010\Projects\ControlTramites\ControlTramites\obj\x86\Release\ControlTramites.Properties.Resources.resources
+c:\users\mark\documents\visual studio 2010\Projects\ControlTramites\ControlTramites\obj\x86\Release\GenerateResource.read.1.tlog
+c:\users\mark\documents\visual studio 2010\Projects\ControlTramites\ControlTramites\obj\x86\Release\GenerateResource.write.1.tlog
+c:\users\mark\documents\visual studio 2010\Projects\ControlTramites\ControlTramites\obj\x86\Release\ControlTramites.exe
+c:\users\mark\documents\visual studio 2010\Projects\ControlTramites\ControlTramites\obj\x86\Release\ControlTramites.pdb
+c:\users\mark\documents\visual studio 2010\Projects\ControlTramites\ControlTramites\obj\x86\Release\ControlTramites.UILBuscarCliente.resources
+C:\opt\emu\ControlTramites\ControlTramites\obj\x86\Release\ControlTramites.exe
+C:\opt\emu\ControlTramites\ControlTramites\obj\x86\Release\ControlTramites.pdb
+C:\opt\emu\ControlTramites\ControlTramites\bin\Release\ControlTramites.exe
+C:\opt\emu\ControlTramites\ControlTramites\bin\Release\ControlTramites.pdb
+C:\opt\emu\ControlTramites\ControlTramites\bin\Release\MySql.Data.dll
+C:\opt\emu\ControlTramites\ControlTramites\obj\x86\Release\ResolveAssemblyReference.cache
+C:\opt\emu\ControlTramites\ControlTramites\obj\x86\Release\ControlTramites.Form1.resources
+C:\opt\emu\ControlTramites\ControlTramites\obj\x86\Release\ControlTramites.Properties.Resources.resources
+C:\opt\emu\ControlTramites\ControlTramites\obj\x86\Release\ControlTramites.UILBuscarCliente.resources
+C:\opt\emu\ControlTramites\ControlTramites\obj\x86\Release\ControlTramites.UILClientes.resources
+C:\opt\emu\ControlTramites\ControlTramites\obj\x86\Release\GenerateResource.read.1.tlog
+C:\opt\emu\ControlTramites\ControlTramites\obj\x86\Release\GenerateResource.write.1.tlog
