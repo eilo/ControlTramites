@@ -13,3 +13,5 @@ Control Tramites nuevo
 05/11/2018: Añadiendo algunos controles al UserForm2 y puliendo partes gráficas
 
 05/11/2018: Arreglando el tema del Oauth de Twitter @eilo2518 y el Readme para que tenga LF
+
+06/11/2018: Nueva herramienta para filtro rápido en la página principal de control utilizando el evento Change() y AutoFilter
