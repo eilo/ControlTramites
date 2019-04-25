@@ -1,6 +1,7 @@
-import wpf
-
+import wpf 
 from System.Windows import Application, Window
+
+import pandas as pd
 
 class MyWindow(Window):
     def __init__(self):
